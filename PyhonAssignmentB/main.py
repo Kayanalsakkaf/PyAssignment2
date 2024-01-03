@@ -36,8 +36,3 @@ ax.imshow(img, extent=[Lon_min, Lon_man, Lat_min, Lat_max])
 gdf.plot(ax=ax, color="purple", markersize=10)
 plt.title("Locations of the GROW Sensors in the UK")
 plt.show()
-
-""" Reference:
-Stack Overflow. (2023, January 31). Python - How to Display an Image. Retrieved December 30, 2023 from https://stackoverflow.com/questions/35286540/how-to-display-an-image
-Stack Overflow. (2023, February 2). Python - hHow to Plot a Map Using Geopandas and Matplotlib. Retrieved December 30, 2023 from https://stackoverflow.com/questions/72322456/how-to-plot-a-map-using-geopandas-and-matplotlib
-"""
